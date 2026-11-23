@@ -1,0 +1,318 @@
+{
+ "schema": "coses-veille/edition@1",
+ "edition": "2026-11-23",
+ "genere_le": "2026-11-23T07:20:00Z",
+ "periode": {
+  "debut": "2026-11-20",
+  "fin": "2026-11-23",
+  "bilan_debut": "2026-11-16",
+  "bilan_fin": "2026-11-22"
+ },
+ "bilan_hebdomadaire": true,
+ "evenements": [
+  {
+   "id": "E1",
+   "niveau": "CRITIQUE",
+   "impact": "direct",
+   "pays": [
+    "BF",
+    "ML",
+    "NE"
+   ],
+   "date_evenement": "2026-11-16/2026-11-20",
+   "titre": "L'or au plus bas : ≈ 3 530 $ l'once, environ −37 % depuis le record de janvier",
+   "resume": "Clôture vers 3 530 $ le 20/11 (plus bas 3 513,54 $, Reuters), contre ≈ 3 770 $ le 18/11 ; −8 à −9 % sur la semaine ; record ≈ 5 595 $ en janvier. Cause : hausse des taux de la Fed attendue le 9/12 (99,3 % CME FedWatch) et ventes forcées. Évolution du sujet E2 de l'édition d'essai.",
+   "statut_info": "confirmé (chiffres arrondis, sources concordantes à ±0,5 %)",
+   "sources": [
+    "https://ancstockinvestments.com/blog/2026/11/20/gold-price-this-week-worst-drop-since-march/",
+    "https://goldcalculators.org/blog/gold-silver-price-update-november-20-2026/",
+    "https://www.riotimesonline.com/gold-silver-precious-metals-friday-november-20-2026/",
+    "https://goldprice.org/gold-price-today/2026-11-21"
+   ]
+  },
+  {
+   "id": "E2",
+   "niveau": "MAJEUR",
+   "impact": "indirect",
+   "pays": [
+    "IR",
+    "US",
+    "BH"
+   ],
+   "date_evenement": "2026-11-21/2026-11-22",
+   "titre": "Golfe : escalade Iran – États-Unis, pétroliers touchés près d'Ormuz",
+   "resume": "Incendie à Sitra (Bahreïn), 2 blessés (ministère de l'Intérieur) ; revendications non vérifiées du CGRI sur des radars américains ; 2 pétroliers touchés (UKMTO) ; Trump annonce une reprise de l'action militaire après le Nouvel An sans accord ; l'Iran qualifie le blocus naval américain d'« acte de guerre ».",
+   "statut_info": "confirmé pour Bahreïn et l'UKMTO ; revendications iraniennes non vérifiées",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf",
+    "https://gulfnews.com/world/mena/middle-east-conflict-bahrain-intercepts-iranian-attacks-as-tehran-prepares-14-oil-tankers-to-breach-us-naval-blockade-1.500756662",
+    "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-22-2026"
+   ]
+  },
+  {
+   "id": "E3",
+   "niveau": "MAJEUR",
+   "impact": "direct",
+   "pays": [
+    "ML",
+    "BF",
+    "GN"
+   ],
+   "date_evenement": "2026-11-18",
+   "titre": "Rapatriés de Guinée : l'OMS juge « élevé » le risque de flambées au Mali et au Burkina",
+   "resume": "Rapport de situation n° 4 de l'OMS (18/11) : 3 798 consultations et 13 décès du 5 au 17/11 dans les districts d'accueil au Mali ; diphtérie et mpox déjà présentes ; pas d'épidémie déclarée. Le gouvernement burkinabè annonce la fin du rapatriement.",
+   "statut_info": "confirmé (rapport OMS cité par la presse ; document original non consulté)",
+   "sources": [
+    "https://www.afrik.com/orpailleurs-chasses-de-siguiri-l-oms-juge-eleve-le-risque-de-flambees-au-mali-et-au-burkina",
+    "https://lefaso.net/spip.php?article150935"
+   ]
+  },
+  {
+   "id": "E4",
+   "niveau": "MAJEUR",
+   "impact": "direct",
+   "pays": [
+    "NE",
+    "NG"
+   ],
+   "date_evenement": "2026-11-12",
+   "titre": "Niger : attaques contre quatre villages de Dioundiou (Dosso)",
+   "resume": "68 corps inhumés selon MDMG Sahel (décompte local, non officiel) ; aucun bilan officiel ; le gouverneur évoque des « enfants du terroir », des témoignages citent Lakurawa ; embuscade à Tillim (Tillabéri) la même semaine.",
+   "statut_info": "faits confirmés, bilan non confirmé",
+   "sources": [
+    "https://fr.allafrica.com/stories/202611180154.html",
+    "https://beninwebtv.bj/niger-apres-les-attaques-de-dioundiou-le-gouverneur-accuse-des-assaillants-locaux/"
+   ]
+  },
+  {
+   "id": "E5",
+   "niveau": "IMPORTANT",
+   "impact": "direct",
+   "pays": [
+    "ML"
+   ],
+   "date_evenement": "2026-11-20/2026-11-21",
+   "titre": "Mali : 756 citernes de plus, 2 261 arrivées à Bamako depuis le début de novembre",
+   "resume": "Troisième convoi escorté par les FAMa (665 le 7/11, 840 à la mi-novembre, 756 le 21/11), selon la DGCC. Volumes non publiés.",
+   "statut_info": "confirmé (source officielle relayée)",
+   "sources": [
+    "https://beninwebtv.bj/bamako-756-citernes-2261-arrivees-novembre-2026/",
+    "https://www.impact.sn/Les-actualites-du-21-novembre-2026-en-region-ouest-africaine_a59846.html"
+   ]
+  },
+  {
+   "id": "E6",
+   "niveau": "IMPORTANT",
+   "impact": "direct",
+   "pays": [
+    "BF"
+   ],
+   "date_evenement": "2026-11-19",
+   "titre": "Burkina Faso : Conseil des ministres du 19 novembre",
+   "resume": "Dissolution du Syndicat des pharmaciens (coefficient de prix 1,32 → 1,48 ; décision UEMOA n° 04/2026 du 27/02/2026) ; 324 Md FCFA HT pour 4 CHR-U ; 104,38 Md FCFA pour les marchés RAAGA ; permis d'exploitation du zinc de Perkoa (37 Md FCFA, 400 emplois directs, 4 ans).",
+   "statut_info": "décisions adoptées",
+   "sources": [
+    "https://burkina24.com/2026/11/19/compte-rendu-du-conseil-des-ministres-du-jeudi-19-novembre-2026/"
+   ]
+  },
+  {
+   "id": "E7",
+   "niveau": "IMPORTANT",
+   "impact": "indirect",
+   "pays": [
+    "US"
+   ],
+   "date_evenement": "2026-12-09",
+   "titre": "Réserve fédérale : hausse de 0,25 point attendue le 9 décembre",
+   "resume": "Probabilité de 99,3 % selon CME FedWatch (20/11) ; Wall Street en correction (S&P 500 et Dow Jones à plus de 10 % sous leurs records). Dollar fort, dette plus chère, or sous pression.",
+   "statut_info": "anticipation de marché",
+   "sources": [
+    "https://ancstockinvestments.com/blog/2026/11/20/gold-price-this-week-worst-drop-since-march/",
+    "https://andmagazine.substack.com/p/morning-brief-22-november-2026"
+   ]
+  },
+  {
+   "id": "E8",
+   "niveau": "IMPORTANT",
+   "impact": "potentiel",
+   "pays": [
+    "CI",
+    "BJ",
+    "TG"
+   ],
+   "date_evenement": "2026-11-19",
+   "titre": "Côte d'Ivoire, Bénin, Togo : protocole d'accord pour un marché gazier régional",
+   "resume": "Signé en marge du SIREXE 2026 à Abidjan ; premier programme de 150 M$ de la Banque mondiale ; programme sur dix ans attendu d'ici mai 2027.",
+   "statut_info": "accord signé (protocole d'accord)",
+   "sources": [
+    "https://www.koaci.com/article/2026/11/19/cote-divoire/politique/cote-divoire-sirexe-2026-abidjan-cotonou-et-lome-sunissent-pour-batir-un-marche-gazier-regional_202824.html"
+   ]
+  },
+  {
+   "id": "E9",
+   "niveau": "À SURVEILLER",
+   "impact": "direct",
+   "pays": [
+    "NE"
+   ],
+   "date_evenement": "2026-11-30",
+   "titre": "Niger : financement du barrage de Kandadji, échéance du 30 novembre",
+   "resume": "561 M$ manquants selon la presse nigérienne ; documents financiers attendus par la Banque mondiale d'ici le 30/11.",
+   "statut_info": "information de presse, non confirmée par un texte officiel",
+   "sources": [
+    "https://nigerdiaspora.net/route-sef-revue-de-presse/revue-de-presse-nigerienne-du-16-au-22-novembre-2026-vie-chere-kandadji-reddition-des-comptes-et-diaspora"
+   ]
+  },
+  {
+   "id": "E10",
+   "niveau": "À SURVEILLER",
+   "impact": "indirect",
+   "pays": [
+    "GH"
+   ],
+   "date_evenement": "2026-11-18",
+   "titre": "Ghana : taux directeur abaissé de 14 % à 11 %",
+   "resume": "Inflation à 5,5 % en octobre ; réserves brutes 12,1 Md$ (4,4 mois d'importations).",
+   "statut_info": "décision adoptée",
+   "sources": [
+    "https://www.graphic.com.gh/business/business-news/bank-of-ghana-cuts-monetary-policy-rate-to-11.html",
+    "https://www.bog.gov.gh/wp-content/uploads/2026/11/MPC-Press-Release-November-2026.pdf"
+   ]
+  },
+  {
+   "id": "E11",
+   "niveau": "À SURVEILLER",
+   "impact": "potentiel",
+   "pays": [
+    "SN",
+    "CEDEAO"
+   ],
+   "date_evenement": "2026-11-21",
+   "titre": "Dakar : déclaration commune de seize États sur les migrations",
+   "resume": "Feuille de route 2027-2028, secrétariat assuré par l'OIM ; harmonisation contre les réseaux de passeurs et migration régulière de main-d'œuvre.",
+   "statut_info": "déclaration adoptée (source secondaire)",
+   "sources": [
+    "https://www.impact.sn/Les-actualites-du-21-novembre-2026-en-region-ouest-africaine_a59846.html"
+   ]
+  },
+  {
+   "id": "E12",
+   "niveau": "À SURVEILLER",
+   "impact": "incertain",
+   "pays": [
+    "ML",
+    "BF"
+   ],
+   "date_evenement": "2026-11",
+   "titre": "Mali – Burkina : feuille de route commune 2027-2029 sur les eaux partagées",
+   "resume": "Mentionnée par une seule revue de presse ; aucun texte officiel trouvé. À confirmer.",
+   "statut_info": "non confirmé (source unique)",
+   "sources": [
+    "https://www.impact.sn/Les-actualites-du-22-novembre-2026-en-region-ouest-africaine_a59858.html"
+   ]
+  }
+ ],
+ "publications": [
+  {
+   "id": "2026-11-23-P1",
+   "type": "veille_detaillee",
+   "canaux": [
+    "telegram_chaine"
+   ],
+   "titre": "L'or chute encore, le Golfe s'embrase",
+   "image": "img/2026-11-23-01.jpg",
+   "texte": "📡 COSES VEILLE — Lundi 23 novembre 2026\nÉdition du jour et bilan stratégique de la semaine (16 – 22 novembre)\n\nChers membres, voici ce qui a changé depuis notre bilan d'hier soir, pour la Confédération AES, Kama (Afrique) et le monde.\n\n🔴 1. L'OR CHUTE ENCORE : ENVIRON −37 % DEPUIS LE RECORD\n• Vendredi 20 novembre, l'once d'or a terminé autour de 3 530 dollars, après un plus bas à 3 513 dollars (Reuters). Elle valait encore environ 3 770 dollars le 18 novembre.\n• Sur la semaine, la baisse atteint 8 à 9 %, la plus forte depuis mars. Par rapport au record de janvier (environ 5 595 dollars), l'or a perdu environ 37 %.\n• Raisons avancées : les marchés jugent quasi certaine une hausse des taux de la Réserve fédérale américaine le 9 décembre (99,3 % selon l'outil CME FedWatch vendredi), et des ventes forcées accompagnent la baisse des bourses.\n👉 Notre lecture : pour le Burkina Faso et le Mali, dont l'or est la première exportation, ce n'est plus une simple correction. Les budgets 2027 devront être prudents.\n\n🟠 2. GOLFE : L'ESCALADE ENTRE L'IRAN ET LES ÉTATS-UNIS S'AGGRAVE\n• Le 21 novembre, une frappe a provoqué un incendie sur un site industriel civil à Sitra (Bahreïn) : 2 blessés selon le ministère bahreïni de l'Intérieur. Les Gardiens de la révolution iraniens revendiquent la destruction de radars sur des bases américaines ; ces revendications ne sont pas vérifiées.\n• L'UKMTO (agence maritime britannique) a signalé deux nouveaux pétroliers touchés près du détroit d'Ormuz.\n• Donald Trump affirme que les États-Unis reprendront l'action militaire après le Nouvel An si aucun accord n'est trouvé. L'Iran qualifie le blocus naval américain d'« acte de guerre ».\n👉 Enjeu pour nous : le Burkina Faso et le Mali importent l'essentiel de leurs carburants. Une nouvelle flambée du baril se répercuterait sur les transports, l'électricité et les prix alimentaires.\n\n🟢 3. MALI : 2 261 CITERNES DE CARBURANT À BAMAKO EN NOVEMBRE\n• Un troisième convoi de 756 camions-citernes est arrivé à Bamako dans la nuit du 20 au 21 novembre, sous escorte des FAMa.\n• Total depuis le début du mois : 2 261 citernes (665 le 7 novembre, 840 à la mi-novembre), selon la Direction générale du commerce, de la consommation et de la concurrence (DGCC).\n👉 Ce qui est nouveau : les convois escortés se succèdent à un rythme soutenu. Les volumes livrés n'ont pas été publiés.\n\n🟡 4. RAPATRIÉS DE GUINÉE : L'ALERTE SANITAIRE\n• Dans son rapport de situation n° 4 du 18 novembre, l'OMS juge « élevé » le risque de flambées de maladies au Mali et au Burkina Faso. Aucune épidémie n'est déclarée.\n• Du 5 au 17 novembre : 3 798 consultations et 13 décès dans les districts d'accueil au Mali. La diphtérie et la mpox circulent déjà dans la zone.\n• Au Burkina Faso, le gouvernement a annoncé la fin des opérations de rapatriement (70 126 personnes accueillies au 17 novembre selon le CONASUR).\n\n🔵 5. BURKINA FASO : CONSEIL DES MINISTRES DU 19 NOVEMBRE\n• Dissolution du Syndicat des pharmaciens du Burkina Faso, mis en cause dans la hausse du coefficient appliqué aux prix des médicaments (de 1,32 à 1,48 chez trois grossistes depuis 2023). L'UEMOA avait déjà sanctionné ces pratiques en février 2026.\n• 324 milliards FCFA (hors taxes) pour construire et équiper quatre centres hospitaliers régionaux universitaires : Fada N'Gourma, Kaya, Koudougou et Banfora (2026-2030).\n• 104,4 milliards FCFA, sur budget de l'État, pour des marchés modernes à Ouagadougou et Bobo-Dioulasso (projet RAAGA).\n• Mine de zinc de Perkoa : permis d'exploitation industrielle accordé (37 milliards FCFA d'investissement, 400 emplois directs, 4 ans d'exploitation prévus).\n👉 Notre lecture : faire baisser le prix des médicaments est un objectif légitime. Dissoudre un syndicat reste une mesure lourde : le dialogue avec les professionnels de santé doit se poursuivre.\n\n🟣 6. NIGER\n• Région de Dosso : des attaques ont visé quatre villages de la commune de Dioundiou, près de la frontière du Nigeria, le 12 novembre. Une organisation locale (MDMG Sahel) parle de 68 corps inhumés ; aucun bilan officiel n'a été publié. Le gouverneur attribue les violences à des « enfants du terroir ».\n• Barrage de Kandadji : selon la presse nigérienne, 561 millions de dollars manquent encore. Le gouvernement doit transmettre ses documents financiers à la Banque mondiale d'ici le 30 novembre.\n\n🌍 7. KAMA DE L'OUEST\n• Le 19 novembre à Abidjan, la Côte d'Ivoire, le Bénin et le Togo ont signé un protocole d'accord pour un marché gazier régional. La Banque mondiale a approuvé un premier programme de 150 millions de dollars.\n• Ghana : la Banque centrale a abaissé son taux directeur de 14 % à 11 % le 18 novembre (inflation à 5,5 % en octobre).\n• Dakar : seize États ont adopté le 21 novembre une déclaration commune sur les migrations, avec une feuille de route 2027-2028.\n\n🌐 8. MONDE\n• Réserve fédérale américaine : décision le 9 décembre ; les marchés attendent une hausse de 0,25 point.\n• Les grands indices de Wall Street (S&P 500, Dow Jones) sont à plus de 10 % sous leurs records.\n\n📊 BILAN STRATÉGIQUE DE LA SEMAINE\n• Ce qui renforce l'AES : la solidarité concrète Mali–Burkina pour les rapatriés, les convois réguliers de carburant vers Bamako, de grands investissements publics burkinabè financés sur ressources propres.\n• Ce qui fragilise : la chute de l'or, les violences dans les zones frontalières (Dosso, Tillabéri) et le risque sanitaire lié aux retours massifs.\n• Ce qui se joue à l'extérieur : la politique monétaire américaine et la crise du Golfe pèsent directement sur nos recettes et sur nos coûts.\n\n📅 À SURVEILLER\n• 24 – 27 novembre : Semaine du numérique, Ouagadougou\n• 30 novembre : documents du Niger attendus par la Banque mondiale (Kandadji)\n• 9 décembre : décision de la Réserve fédérale américaine\n• 11 décembre : fête de l'indépendance du Burkina Faso (parade militaire annoncée à Ouagadougou)\n• Décembre : sommet de la CEDEAO à Abuja ; 14 – 15 décembre : sommet du G20 à Miami\n\n📚 Sources : gouvernement du Burkina Faso (Conseil des ministres du 19/11), OMS (rapport du 18/11, via Afrik.com), DGCC Mali (via Bénin Web TV), CONASUR, RFI, ANP, Reuters, CME FedWatch, Al Jazeera, Gulf News, UKMTO, Banque du Ghana, KOACI.\n\nCOSES — Coalition ouverte de soutien aux États du Sahel 👇🏾👇🏿👇\n\n✊🏿 Pour la libération totale de Kama !\n𝐋𝐚 𝐏𝐚𝐭𝐫𝐢𝐞 𝐨𝐮 𝐥𝐚 𝐦𝐨𝐫𝐭, 𝐧𝐨𝐮𝐬 𝐯𝐚𝐢𝐧𝐜𝐫𝐨𝐧𝐬 !\n\n📢 REJOIGNEZ-NOUS\n📡 Chaîne Telegram (l'actualité détaillée) :\nhttps://t.me/+OPyDzcwNH5gzODFk\n💬 Groupe Telegram (débats et échanges) :\nhttps://t.me/+TjOYoqF9JFs0MGY0\n🟢 Groupe WhatsApp :\nhttps://chat.whatsapp.com/EpTsiaS0Ju87xowJrZxRJh\n🎵 TikTok : https://www.tiktok.com/@cosaesruk\n📘 Facebook : https://www.facebook.com/profile.php?id=61559969762984\n\n#Mali #Niger #BurkinaFaso #AES #Souveraineté #COSES #Kama",
+   "statut": "brouillon"
+  },
+  {
+   "id": "2026-11-23-P2",
+   "type": "message_invites",
+   "canaux": [
+    "whatsapp",
+    "facebook"
+   ],
+   "titre": "5 infos à retenir — renvoi vers Telegram",
+   "image": "img/2026-11-23-02.jpg",
+   "texte": "📡 COSES VEILLE — 23 novembre 2026\n\nCe qu'il faut savoir aujourd'hui en Kama (Afrique) et dans l'espace AES :\n\n🔴 L'or a perdu plus d'un tiers de sa valeur depuis janvier. Que risquent nos budgets ?\n🟠 Golfe : l'affrontement entre l'Iran et les États-Unis menace à nouveau le prix du carburant.\n🟢 Bamako reçoit des centaines de citernes de carburant sous escorte militaire.\n🟡 Rapatriés de Guinée : l'OMS lance une alerte sanitaire.\n🔵 Burkina Faso : 324 milliards FCFA pour quatre centres hospitaliers régionaux universitaires.\n\nChiffres, sources et analyses complètes sur notre chaîne Telegram : lien ci-dessous 👇\n\nCOSES — Coalition ouverte de soutien aux États du Sahel 👇🏾👇🏿👇\n\n✊🏿 Pour la libération totale de Kama !\n𝐋𝐚 𝐏𝐚𝐭𝐫𝐢𝐞 𝐨𝐮 𝐥𝐚 𝐦𝐨𝐫𝐭, 𝐧𝐨𝐮𝐬 𝐯𝐚𝐢𝐧𝐜𝐫𝐨𝐧𝐬 !\n\n📢 REJOIGNEZ-NOUS\n📡 Chaîne Telegram (l'actualité détaillée) :\nhttps://t.me/+OPyDzcwNH5gzODFk\n💬 Groupe Telegram (débats et échanges) :\nhttps://t.me/+TjOYoqF9JFs0MGY0\n🟢 Groupe WhatsApp :\nhttps://chat.whatsapp.com/EpTsiaS0Ju87xowJrZxRJh\n🎵 TikTok : https://www.tiktok.com/@cosaesruk\n📘 Facebook : https://www.facebook.com/profile.php?id=61559969762984\n\n#Mali #Niger #BurkinaFaso #AES #Souveraineté #COSES #Kama",
+   "statut": "brouillon"
+  },
+  {
+   "id": "2026-11-23-P3",
+   "type": "point_de_vue",
+   "canaux": [
+    "telegram_chaine",
+    "telegram_groupe",
+    "whatsapp",
+    "facebook"
+   ],
+   "titre": "Or en chute, Golfe en feu : une leçon de souveraineté",
+   "image": "img/2026-11-23-03.jpg",
+   "texte": "🗣️ POINT DE VUE COSES\nOr en chute, Golfe en feu : deux chocs venus d'ailleurs, une même leçon de souveraineté\n\nEn une semaine, deux crises nées loin du Sahel ont frappé nos économies.\n\nÀ Washington, la perspective d'une nouvelle hausse des taux de la Réserve fédérale a fait plonger l'or : environ 3 530 dollars l'once le 20 novembre, contre près de 5 595 dollars au record de janvier. C'est une baisse d'environ 37 %. Or l'or est la première exportation du Burkina Faso et du Mali.\n\nDans le Golfe, l'affrontement entre l'Iran et les États-Unis menace le détroit d'Ormuz, passage clé du pétrole mondial. Le Burkina Faso et le Mali importent l'essentiel de leurs carburants : chaque hausse du baril se paie à la pompe, dans les transports et sur les marchés.\n\nMoins de recettes d'un côté, plus de dépenses de l'autre : c'est la fragilité de toute économie qui exporte des matières premières brutes et importe son énergie. Ce n'est pas une fatalité.\n\nPour COSES, la réponse passe par trois chantiers confédéraux :\n1️⃣ Transformer et stocker l'or chez nous (raffinage, réserves publiques), pour ne pas être obligés de le vendre au pire moment.\n2️⃣ Sécuriser l'énergie à l'échelle de l'AES : stocks communs de carburant, meilleure valorisation du pétrole et du raffinage nigériens au service des trois pays, accélération du solaire.\n3️⃣ Financer ces chantiers avec nos propres outils, à commencer par la Banque confédérale pour l'investissement et le développement (BCID-AES).\n\nLes prix mondiaux ne se décident ni à Ouagadougou, ni à Bamako, ni à Niamey. Notre capacité à y résister, si.\n\nSources : Reuters (cours de l'or, 20 nov. 2026), CME FedWatch (20 nov.), Al Jazeera et Gulf News (22 nov.), UKMTO.\n\nCOSES — Coalition ouverte de soutien aux États du Sahel 👇🏾👇🏿👇\n\n✊🏿 Pour la libération totale de Kama !\n𝐋𝐚 𝐏𝐚𝐭𝐫𝐢𝐞 𝐨𝐮 𝐥𝐚 𝐦𝐨𝐫𝐭, 𝐧𝐨𝐮𝐬 𝐯𝐚𝐢𝐧𝐜𝐫𝐨𝐧𝐬 !\n\n📢 REJOIGNEZ-NOUS\n📡 Chaîne Telegram (l'actualité détaillée) :\nhttps://t.me/+OPyDzcwNH5gzODFk\n💬 Groupe Telegram (débats et échanges) :\nhttps://t.me/+TjOYoqF9JFs0MGY0\n🟢 Groupe WhatsApp :\nhttps://chat.whatsapp.com/EpTsiaS0Ju87xowJrZxRJh\n🎵 TikTok : https://www.tiktok.com/@cosaesruk\n📘 Facebook : https://www.facebook.com/profile.php?id=61559969762984\n\n#Mali #Niger #BurkinaFaso #AES #Souveraineté #COSES #Kama",
+   "statut": "brouillon"
+  },
+  {
+   "id": "2026-11-23-P4",
+   "type": "point_de_vue",
+   "canaux": [
+    "telegram_chaine",
+    "telegram_groupe",
+    "whatsapp",
+    "facebook"
+   ],
+   "titre": "Rapatriés de Guinée : la santé, affaire confédérale",
+   "image": "img/2026-11-23-04.jpg",
+   "texte": "🗣️ POINT DE VUE COSES\nRapatriés de Guinée : après les convois, la santé doit devenir une affaire confédérale\n\nLes convois sont terminés. Plus de 70 000 personnes sont rentrées au Burkina Faso avec l'appui logistique du Mali. Une nouvelle étape commence, et l'Organisation mondiale de la santé (OMS) vient d'en fixer l'enjeu : dans son rapport du 18 novembre, elle juge « élevé » le risque de flambées de maladies au Mali et au Burkina Faso.\n\nLes chiffres sont précis : 3 798 consultations du 5 au 17 novembre dans les districts d'accueil au Mali, 13 décès, et des maladies déjà présentes dans la zone, comme la diphtérie et la mpox. Aucune épidémie n'est déclarée : il est encore temps d'agir.\n\nPour COSES, trois mesures s'imposent :\n1️⃣ Une surveillance sanitaire commune Mali–Burkina sur les corridors de retour, avec un partage régulier des données.\n2️⃣ La vaccination et le dépistage des rapatriés et des communautés d'accueil, en priorité les enfants : 14 743 enfants figurent parmi les personnes accueillies au Burkina Faso.\n3️⃣ Un volet santé dans la feuille de route de la Confédération, pour que la prochaine crise trouve un dispositif déjà prêt.\n\nLa solidarité confédérale a fait ses preuves sur la route. Elle doit maintenant les faire dans les centres de santé. Protéger les rapatriés, c'est protéger tout le monde.\n\nSources : OMS, rapport de situation n° 4 (18 nov. 2026, via Afrik.com) ; CONASUR (17 nov. 2026).\n\nCOSES — Coalition ouverte de soutien aux États du Sahel 👇🏾👇🏿👇\n\n✊🏿 Pour la libération totale de Kama !\n𝐋𝐚 𝐏𝐚𝐭𝐫𝐢𝐞 𝐨𝐮 𝐥𝐚 𝐦𝐨𝐫𝐭, 𝐧𝐨𝐮𝐬 𝐯𝐚𝐢𝐧𝐜𝐫𝐨𝐧𝐬 !\n\n📢 REJOIGNEZ-NOUS\n📡 Chaîne Telegram (l'actualité détaillée) :\nhttps://t.me/+OPyDzcwNH5gzODFk\n💬 Groupe Telegram (débats et échanges) :\nhttps://t.me/+TjOYoqF9JFs0MGY0\n🟢 Groupe WhatsApp :\nhttps://chat.whatsapp.com/EpTsiaS0Ju87xowJrZxRJh\n🎵 TikTok : https://www.tiktok.com/@cosaesruk\n📘 Facebook : https://www.facebook.com/profile.php?id=61559969762984\n\n#Mali #Niger #BurkinaFaso #AES #Souveraineté #COSES #Kama",
+   "statut": "brouillon"
+  }
+ ],
+ "alertes": [
+  {
+   "date": "2026-11-24/2026-11-27",
+   "objet": "Semaine du numérique, Ouagadougou",
+   "source": "Sidwaya"
+  },
+  {
+   "date": "2026-11-30",
+   "objet": "Niger : documents financiers de Kandadji attendus par la Banque mondiale",
+   "source": "https://nigerdiaspora.net/route-sef-revue-de-presse/revue-de-presse-nigerienne-du-16-au-22-novembre-2026-vie-chere-kandadji-reddition-des-comptes-et-diaspora"
+  },
+  {
+   "date": "2026-12-09",
+   "objet": "Décision de la Réserve fédérale américaine (FOMC 8-9 déc.)",
+   "source": "https://ancstockinvestments.com/blog/2026/11/20/gold-price-this-week-worst-drop-since-march/"
+  },
+  {
+   "date": "2026-12-10",
+   "objet": "Inflation américaine de novembre (CPI)",
+   "source": "https://goldcalculators.org/blog/gold-silver-price-update-november-20-2026/"
+  },
+  {
+   "date": "2026-12-11",
+   "objet": "Fête de l'indépendance du Burkina Faso, parade militaire à Ouagadougou",
+   "source": "https://burkina24.com/2026/11/19/compte-rendu-du-conseil-des-ministres-du-jeudi-19-novembre-2026/"
+  },
+  {
+   "date": "2026-12",
+   "objet": "Sommet de la CEDEAO à Abuja ; fin du mandat du négociateur en chef AES–CEDEAO",
+   "source": "https://sahel.watch/negociations-cedeao-aes-dakar-octobre-2026/"
+  },
+  {
+   "date": "2026-12-14/2026-12-15",
+   "objet": "Sommet du G20 à Miami (Afrique du Sud écartée par la présidence américaine)",
+   "source": "https://en.wikipedia.org/wiki/2026_G20_Miami_summit"
+  },
+  {
+   "date": "2027-01",
+   "objet": "Échéance annoncée par Washington pour une reprise de l'action militaire contre l'Iran faute d'accord",
+   "source": "https://gulfnews.com/world/mena/middle-east-conflict-bahrain-intercepts-iranian-attacks-as-tehran-prepares-14-oil-tankers-to-breach-us-naval-blockade-1.500756662"
+  },
+  {
+   "date": "non publiée",
+   "objet": "Prochain Collège des chefs d'État de l'AES",
+   "source": "—"
+  }
+ ],
+ "rapport_html": "Voir index.html (onglet Rapport de veille) de cette édition.",
+ "origine": "claude",
+ "mode": 3
+}
