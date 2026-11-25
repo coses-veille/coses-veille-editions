@@ -1,0 +1,51 @@
+# Surveillance de la veille du jour (D-033 de l'application COSES Veille).
+# Chaque matin à 05 h 15 (Ouagadougou), vérifie que la veille Claude (AES GEOINT, relayée vers 4 h 30 sur la
+# branche veille-claude) et le Radar de 01 h 00 (branche main) sont arrivés. S'il en manque, ouvre un
+# « ticket » GitHub : GitHub l'envoie par courriel aux personnes qui suivent le dépôt, avec la marche à suivre.
+# Quand tout est arrivé, les tickets ouverts sont fermés. Gratuit ; aucune clé à fournir.
+name: Surveillance de la veille
+
+on:
+  schedule:
+    - cron: '15 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verifier:
+    name: Vérifier la veille du jour
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Chercher les éditions du jour
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          JOUR=$(date -u +%F); AN=${JOUR:0:4}; MOIS=${JOUR:5:2}; JJMM="${JOUR:8:2}/${MOIS}"
+          git fetch -q --depth=1 origin veille-claude:refs/remotes/origin/veille-claude || true
+          git fetch -q --depth=1 origin main:refs/remotes/origin/main
+          MANQUE=""
+          if ! git ls-tree --name-only origin/veille-claude "claude/$AN/$MOIS/$JOUR-geoint.json" 2>/dev/null | grep -q .; then
+            MANQUE="$MANQUE- **Veille Claude (AES GEOINT)** : absente de la branche veille-claude.\n"
+          fi
+          if ! git ls-tree --name-only origin/main "radar/$AN/$MOIS/" | grep -q "$JOUR-"; then
+            MANQUE="$MANQUE- **Radar** : aucune collecte du jour (voir l'onglet Actions du dépôt coses-veille-radar).\n"
+          fi
+          TITRE="Veille du $JJMM incomplète"
+          gh label create surveillance --color D93F0B --description "Veille du jour incomplète" --force >/dev/null
+          # Les tickets des jours précédents sont fermés : un seul suivi à la fois.
+          for N in $(gh issue list --state open --label surveillance --json number,title --jq ".[] | select(.title != \"$TITRE\") | .number"); do
+            gh issue close "$N" --comment "Remplacé par le suivi du $JJMM." >/dev/null
+          done
+          OUVERT=$(gh issue list --state open --label surveillance --json number,title --jq ".[] | select(.title == \"$TITRE\") | .number")
+          if [ -z "$MANQUE" ]; then
+            echo "Veille du $JOUR complète."
+            [ -n "$OUVERT" ] && gh issue close "$OUVERT" --comment "Tout est arrivé : rien à faire."
+            exit 0
+          fi
+          printf '%b' "Vérification du $JOUR à 05 h 15 (heure de Ouagadougou) :\n\n$MANQUE\n## Que faire ?\n\n**Veille Claude manquante** : dans Claude, ouvrez le document « COSES Veille — dépôt $JOUR » (ou, s'il n'existe pas, la réponse de la tâche « AES GEOINT »). Copiez tout son contenu, puis dans l'application https://coses-veille.web.app ouvrez le **Dossier du jour**, puis **Coller un rapport d'IA**. Choisissez **Claude** et collez. Les sujets, le rapport et les publications arrivent dans le dossier.\n\n**Radar manquant** : onglet Actions du dépôt coses-veille-radar, travail « Radar », bouton « Run workflow ».\n\nCe ticket se fermera tout seul demain matin si tout arrive.\n" > corps.md
+          echo "Veille du $JOUR incomplète :"; cat corps.md
+          if [ -z "$OUVERT" ]; then gh issue create --title "$TITRE" --label surveillance --body-file corps.md; fi
